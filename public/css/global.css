@@ -1,0 +1,105 @@
+#listArticles {
+    display: grid;
+    grid-template-columns: auto auto auto ; 
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+#contenuCarte {
+    display: grid;
+    grid-template-rows: auto auto 45px;
+}
+
+#welcomePage {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#details {
+    padding: 50px;
+}
+
+#detailsContent {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#detailsCard {
+    width: 100%;
+}
+
+#footerText {
+    color: #fff;
+}
+
+#chooseActionAdmin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chooseActionAdmin div {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+#chooseActionAdmin div:hover {
+    background-color: lightgray;
+}
+
+#dropdown-compte:hover #mon-compte-dropdown {
+    display: block;
+}
+
+#dropdown-compte #mon-compte-dropdown a {
+    color: black;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire ul {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid gray;
+    list-style: none;
+}
+
+.formulaire ul li input,
+.formulaire ul li textarea{
+    width: 100%;
+    margin-bottom: 5px;
+    resize: vertical;
+}
+
+.formulaire ul li textarea {
+    height: 200px;
+}
+
+.submitBtn{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#listArticles, 
+#listUsers {
+    padding: 0 125px;
+}
+
+#listArticles a,
+#listUsers a{
+    text-decoration: none;
+}
+
+.actionsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
